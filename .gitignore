@@ -1,0 +1,133 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+
+*.so
+.Python
+
+# =========================
+# Virtual environments
+# =========================
+.venv/
+venv/
+env/
+ENV/
+.env/
+
+# Conda
+.conda/
+
+# =========================
+# Environment / Secrets
+# =========================
+.env
+.env.*
+!.env.example
+
+# API keys / credentials
+*.pem
+*.key
+secrets/
+credentials/
+credentials.json
+
+# =========================
+# Jupyter
+# =========================
+.ipynb_checkpoints/
+
+# =========================
+# Testing / Coverage
+# =========================
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+
+# =========================
+# Type checking / linting
+# =========================
+.mypy_cache/
+.pyright/
+.ruff_cache/
+
+# =========================
+# Build / Distribution
+# =========================
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# =========================
+# Logs
+# =========================
+*.log
+logs/
+
+# =========================
+# AI / LangChain / LangGraph
+# =========================
+.langchain/
+.langgraph/
+
+# Tracing / local data
+.tracing/
+runs/
+
+# =========================
+# Vector DB / Local DB
+# =========================
+*.db
+*.sqlite
+*.sqlite3
+
+# Local Chroma / vector stores
+chroma/
+chroma_db/
+vectorstore/
+vector_store/
+
+# =========================
+# Generated files
+# =========================
+outputs/
+output/
+tmp/
+temp/
+
+# =========================
+# IDE
+# =========================
+.vscode/
+.idea/
+
+# =========================
+# OS
+# =========================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# =========================
+# Environment-specific files
+# =========================
+*.local
+
+# =========================
+# Node (if frontend exists)
+# =========================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# =========================
+# Docker
+# =========================
+docker-compose.override.yml
